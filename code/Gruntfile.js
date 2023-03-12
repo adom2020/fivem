@@ -1,7 +1,7 @@
 module.exports = function(grunt)
 {
 	var fs = require('fs');
-
+	var test = 0
 	grunt.initConfig({
 		prompt: {
 			'component-new': {
